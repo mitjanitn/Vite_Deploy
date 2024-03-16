@@ -8,7 +8,7 @@ import handlebars from 'vite-plugin-handlebars';
 import handlerBarsContext from './context/variable.js';
 
 export default defineConfig({
-    base: "/",
+    base: "/Vite_Deploy/",
     appType: 'mpa',
     build: {
         rollupOptions: {
